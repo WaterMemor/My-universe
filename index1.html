@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вселенная недвижимости</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+<div class="containerNew">
+    <div class="item textLeft">
+        <div id="textLeft">
+            <div class="title_group">Вселенная недвижимости</div>
+            <div class="title">Инвестиционная группа </div>
+            <div class="usual_text">
+                <ul>
+                    <li>Быстро выкупаем жилье в Москве и области</li>
+                <li>До 90% процентов от рыночной стоимости</li>
+                <li>С долгами и обременением</li>
+                <li>Аванс в день обращения</li>
+                <li>Выкуп квартир в ипотеке и залоге</li>
+                </ul>
+        </div>
+    </div>
+    <button class="flat_price">Оценить квартиру</button>
+</div>
+    <div class="item bigPhoto">
+        <img id="image" src="img/flat.jpg" alt="">
+    </div>
+    <div class="rounds"><img src="img/round.png"></div>
+    <div class="item smallPhoto">
+        <div id="textRight" class="usual_text center">О нашем агенстве</div>
+        <div class="pic">
+            <img id="pic" src="img/photo1.jpg" alt="">
+        </div>
+        <div class="dot">
+            <span onClick="imgsrc1();" id="dot1" class="dots color"></span>
+            <span onClick="imgsrc2();" id="dot2" class="dots black"></span>
+            <span onClick="imgsrc3();" id="dot3" class="dots black"></span>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Screen 2-->
+<div class="containerNew containerSecond">
+    <input type="text" placeholder="e-mail">
+    <input type="text" placeholder="ФИО">
+    <button>Отправить заявку</button>
+</div>
+
+<!--Screen 3-->
+<div class="container-fluid bgcolor1">
+    <div class="containerThird">
+        <div class="textCenter title">
+            <ul>
+                <li>Выкупим вашу недвижимость на собственные средства за 3 - 5 дней!</li> 
+                <li>Готовы решить даже самые сложные и нестандартные ситуации</li>
+                <li>Мы уже более 7 лет успешно помогаем вам выкупить и продать квартиры</li>
+                <li>Обменять квартиру на земельный участок</li>
+                <li>в Москве и области</li>
+            </ul>
+        </div>
+        <div class="containerButton">
+            <button>Оценить недвижимость</button>
+        </div>
+    </div>
+</div>
+
+<!--Screen 4-->
+<div class="containerFourth usual_text">
+    <p>Инвестиционная группа «Вселенная недвижимости» — ваше безопасное и выгодное инвестирование в недвижимость. Мы гарантируем полную юридическую безопасность. Наша компания занимается срочным выкупом объектов недвижимости, продажей земельных участков в МО от 22 до 80 км от мкад, обменом квартир на земельные участки не только в МО, но и в Крыму, Сочи.</p>
+    <p>
+        <ul>
+            <li>Мы выкупаем недвижимость вместе с существующими договорами на аренду</li>
+            <li>Готовы работать с объектами, которые находятся в ипотеке и лизинге</li>
+            <li>Выплачиваем 90% от рыночной стоимости</li>
+            <li>Аванс уже на следующий день</li>
+            <li>Практикуем исключительно прозрачные схемы и взаимовыгодные условия</li>
+            <li>Выкупаем недвижимость только за собственные средства</li>
+        </ul>
+    </p>
+</div>
+
+<!--Screen 5-->
+<div class="container-fluid bgcolor2">
+    <div class="containerFourth">
+        <div class="roundsSecond">
+            <img src="img/roundsSecond.png">
+        </div>
+        <div class="title">
+            Возьмем ваши проблемы на себя
+        </div>
+        <div class="title_group">
+            Обращайтесь к нам если:
+        </div>
+        <div class="title_table" cellspacing="20">
+            <table>          
+                <tr>
+                    <td><img src="img/icon1.png">Утрачены документы</td><td><img src="img/icon6.png">Была перепланировка</td>
+                </tr>
+                <tr>
+                    <td><img src="img/icon2.png">Квартира в залоге у банка</td><td><img src="img/icon5.png">Квартира в ипотеке</td>
+                </tr>
+                <tr>
+                    <td><img src="img/icon3.png">У вас коммунальные долги</td><td><img src="img/icon4.png">Есть проблемы с приватизацией</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--Screen 6-->
+<div class="containerSix">
+    <div class="textCenter title">
+        Я хочу
+    </div>
+    <div class="containerNew">
+        <button id="sell" onClick="button1();" class="mrgr usual">Продать</button>
+        <button id="buy" onClick="button2();" class="mrgr borderBtn">Купить</button>
+        <button id="exchange" onClick="button3();" class="borderBtn">Обменять</button>
+    </div>
+    <div id="textSix" class="usual_text mrgtop">
+        <p>Компания “Вселенная недвижимости” берет на себя всю работы по продаже квартиры.</p>
+            <p>Мы готовы срочно выупить вашу квартиру без инвесторов, либо предаставить вам риэлторские услуги:</p>
+                <ul>
+            <li>Оценить недвижимость</li>
+            <li>Провести переговоры</li>
+            <li>Собрать документы</li>
+            <li>Продать квартиру</li>
+                </ul>
+    </div>
+</div>
+
+<!--Screen 7-->
+<div class="containerSeven">
+    <div class="textCenter title">
+        Ответы на ваши вопросы
+    </div>
+    <p>
+        <a class="title_group" data-toggle="collapse" href="#answer1">
+            Почему мы готовы выкупить вашу квартиру?
+        </a>
+      </p>
+      <div class="collapse" id="answer1">
+        <div class="usual_text">
+            «Срочность» не бывает бесплатной и такие сделки проходят ниже рыночной цены. Подавляющее большинство клиентов предпочитают воспользоваться обычными услугами по продаже, которые позволяют при необходимости продать квартиру достаточно быстро, даже за один месяц. Тем не менее, в жизни бывают разные ситуации, и даже один месяц – это слишком долго. В этом случае кампания «Вселенная недвижимости» готова предложить вам разумные и справедливые условия по выкупу квартиры
+        </div>
+      </div>
+
+      <p>
+        <a class="title_group" data-toggle="collapse" href="#answer2">
+            Если у меня большая задолженность и пени?
+        </a>
+      </p>
+      <div class="collapse" id="answer2">
+        <div class="usual_text">
+            Если ваша задолженность составляет более 1000000 рублей, то такие ситуации рассматриваются в индивидуальном порядке. В любом другом случае мы готовы срочно выкупить вашу недвижимость
+        </div>
+        </div>
+      <p>
+        <a class="title_group" data-toggle="collapse" href="#answer3">
+            Какую недвижимость вы рассматриваете?
+        </a>
+      </p>
+      <div class="collapse" id="answer3">
+        <div class="usual_text">
+            Рассматриваем однокомнатные, двухкомнатные квартиры и студии, реже трёхкомнатные и четырёхкомнатные. А также земельные участки в подмосковье
+        </div>
+    </div>
+
+    <p>
+        <a class="title_group" data-toggle="collapse" href="#answer4">
+            На каких условиях происходит срочный выкуп квартиры?
+        </a>
+      </p>
+      <div class="collapse" id="answer4">
+        <div class="usual_text">
+            Мы платим вам на руки до 90% от рыночной стоимости недвижимости, согласно официальному отчету об оценке, который готовит лицензированная оценочная компания
+        </div>
+    </div>
+</div>
+
+<!--Screen 8-->
+<div class="containerLast">
+    <div class="footerNew">
+        2020 год
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+<style>
+.containerLast{
+    background: grey;
+    padding: 0 5%;
+}
+.mrgtop{
+    margin-top: 30px;
+}
+.mrgr{
+    margin-right: 30px;
+}
+.title_table td:first-child{
+    padding-right: 90px;
+}
+.title_table img{
+    margin-right: 20px;
+}
+.black{
+        background: #303030;
+    }
+.color{
+        background: #AB7F5C;
+    }
+.dots{
+    height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 5px 5px;
+}
+.pic{
+    width:300px;
+}
+.pic img {
+    width: 250px;
+    margin: 15px 10%;
+}
+.rounds img {
+    width: 56%;
+    position: absolute;
+    left: 50%;
+    margin-top: 6%;
+    margin-left: -28%;
+}
+.roundsSecond img{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    z-index: 2;
+}
+.dot{
+  display: flex;
+  justify-content: center;
+}
+.containerNew{
+display: flex;
+  justify-content: center;
+  margin: 0 2%;
+}
+.containerSix, .containerSeven{
+    margin: 0 5%;
+}
+.containerSeven{
+    padding-bottom: 30px;
+}
+.containerThird{
+display: block;
+  margin: 0 10%;
+}
+.containerFourth{
+    display: block;
+    margin: 140px 5%;
+    padding: 25px 0;
+    z-index: -2;
+}
+.bgcolor1{
+    background: #EEEEEE;
+}
+.bgcolor2{
+    background: #e8e8e8;
+}
+.containerButton{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+.item{
+    margin: 0 10px;
+}
+.item:nth-child(2){
+    margin: 0 4%;
+}
+.item:last-child{
+    margin-top: 8%;
+}
+.item:first-child {
+    margin-top: 4%;
+}
+.bigPhoto img{
+    max-height: 700px
+}
+.smallPhoto{
+    z-index: 2;
+}
+.textLeft{
+    z-index: 2;
+}
+.textLeft{
+    width: 300px;
+}
+.title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #303030;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.title_group{
+    font-size: 23px;
+    font-weight: 400;
+    color: #303030;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+.usual_text{
+    font-size: 17px;
+    color:#000;
+    margin-bottom: 20px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footerNew{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.title_table{
+    font-size: 18px;
+    color: #303030;
+    line-height: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+th {
+    margin-right: 30px;
+}
+.center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+ul, li {
+   margin-left: 0;
+   padding-left: 0;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #fff;
+    background: #C22929;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+input{
+    margin-right: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+input, .borderBtn{
+    border: 2px solid #C22929!important;
+    border-radius: 50px;
+    background: transparent!important;
+    color: #303030!important;
+}
+.containerSecond{
+    margin: 250px 0;
+}
+.textCenter{
+    text-align: center;
+    font-size: 25px;
+    padding-top:40px;
+    margin-bottom: 40px;
+}
+.textCenter ul{
+    list-style: none;
+}
+</style>
+
+<script>
+
+    var i=0;
+    var checkForGo = 0;
+    var textLeft=document.getElementById("textLeft");
+    var textRight=document.getElementById("textRight");
+    var image=document.getElementById("image");
+    var dot1 =document.getElementById("dot1");
+    var dot2 =document.getElementById("dot2");
+    var dot3 =document.getElementById("dot3");
+    var pic =document.getElementById("pic");
+    var imgs =new Array('img/flat.jpg', 'img/photo1.jpg','img/photo2.jpg');
+    function imgsrc1() {
+        image.src = imgs[0];
+        textLeft.innerHTML = '<div class=\"title_group\">Вселенная недвижимости</div\><div class=\"title\">Инвестиционная группа </div\><div class=\"usual_text\"\><ul\><li>Быстро выкупаем жилье в Москве и области</li\><li>До 90% процентов от рыночной стоимости</li\><li>С долгами и обременением</li\><li>Аванс в день обращения</li\><li>Выкуп квартир в ипотеке и залоге</li\></ul>';
+        textRight.innerHTML ='О нашем агенстве';
+
+        dot3.classList.remove("color");
+        dot3.classList.add("black");
+        dot2.classList.remove("color");
+        dot2.classList.add("black");
+        dot1.classList.remove("black");
+        dot1.classList.add("color");
+        
+        pic.src = imgs[1];
+        checkForGo = 1;
+        console.log(checkForGo);
+    }
+    function imgsrc2() {
+        image.src = imgs[1];
+        textLeft.innerHTML = '<div class=\"title_group\">О нашем агенстве</div\><div class=\"usual_text\"\><ul\><li>Мы уже более 7 лет успешно помогаем вам в кратчайшие сроки выкупить и продать квартиры в Москве и области</li\><li>Выкупаем на собственные средства за 1 – 3 дня</li\><li>Готовы решить даже самые сложные и нестандартные ситуации</li\></ul>';
+        textRight.innerHTML ='Аванс';
+
+        dot1.classList.remove("color");
+        dot1.classList.add("black");
+        dot3.classList.remove("color");
+        dot3.classList.add("black"); 
+        dot2.classList.remove("black");
+        dot2.classList.add("color");
+
+        pic.src = imgs[2];
+        checkForGo = 2;
+        console.log(checkForGo);
+    }
+    function imgsrc3() {
+        image.src = imgs[2];
+        textLeft.innerHTML = '<div class=\"title_group\">Готовы выдать аванс в день обращения</div\><div class=\"usual_text\"\><ul\><li>Если у вас сложная ситуация и срочно нужны средства, то Агентство «Инвестиционная Недвижимость» готово выдать аванс наличными</li\><li>Рассматриваем однокомнатные, двухкомнатные квартиры и студии, реже трёхкомнатные и четырёхкомнатные.</li\></ul>';
+        textRight.innerHTML ='Главная';
+
+        dot2.classList.remove("color");
+        dot2.classList.add("black");
+        dot1.classList.remove("color");
+        dot1.classList.add("black");
+        dot3.classList.remove("black");
+        dot3.classList.add("color");
+
+        pic.src = imgs[0];
+        checkForGo = 3;
+        console.log(checkForGo);
+    }
+
+
+
+    var sell =document.getElementById("sell");
+    var buy =document.getElementById("buy");
+    var exchange =document.getElementById("exchange");
+    var textSix =document.getElementById("textSix");
+    var pic =document.getElementById("pic");
+
+    function button2() {
+        textSix.innerHTML = '<div class=\"usual_text\"\>Вы можете выбрать проверенную недвижимость на нашем сайте и преобрести ее в кратчайшие сроки\. Также\, мы готовы подобрать для вас новое жилье\. В этом случае вы пропускаете долгий процесс поисков\, телефонных переговоров и разъездов по бесчисленным адресам\. Мы хорошо знаем рынок недвижимости Москвы и предложим Вам лучшие варианты\. Проверить квартиры вы можете на <a href="#">нашем сайте</a></div>';
+
+        buy.classList.remove("borderBtn");
+        buy.classList.add("usual");
+        sell.classList.add("borderBtn");
+        sell.classList.remove("usual");
+        exchange.classList.remove("usual");
+        exchange.classList.add("borderBtn");
+    }
+    function button1() {
+        textSix.innerHTML = '<p>Компания \“Вселенная недвижимости\” берет на себя всю работы по продаже квартиры\.</p><p>Мы готовы срочно выупить вашу квартиру без инвесторов, либо предаставить вам риэлторские услуги:</p><ul><li>Оценить недвижимость</li><li>Провести переговоры</li><li>Собрать документы</li><li>Продать квартиру</li></ul>';
+        sell.classList.remove("borderBtn");
+        sell.classList.add("usual");
+        buy.classList.remove("usual");
+        buy.classList.add("borderBtn");
+        exchange.classList.remove("usual");
+        exchange.classList.add("borderBtn");
+    }
+    function button3() {
+        textSix.innerHTML = '<div class=\"usual_text\"><p>Готовы сразу же обменять ваш участок земли на квартиру в Москве и области. Либо же обменять недвижимость в Московской области на земельные участки в Сочи и Крыму. Гарантируем полноценный обмен, после оценки недвижимости.</p><p>Рассчитайте примерную цену по нашему калькулятору и ищите недвижимость за такую же цену на сайте.</p> <p>Если у вас остались вопросы по данной услуге, позвоните нам.</p></div>';
+
+        buy.classList.remove("usual");
+        buy.classList.add("borderBtn");
+        sell.classList.remove("usual");
+        sell.classList.add("borderBtn");
+        exchange.classList.remove("borderBtn");
+        exchange.classList.add("usual");
+    }
+
+
+    document.addEventListener('keydown', function(event) {
+  if (event.keyCode == 39){
+    if (checkForGo == 1){
+        imgsrc2();
+      }else if(checkForGo == 2){
+        imgsrc3();
+      }else{
+        imgsrc1();
+      }
+
+  }
+});
+
+document.addEventListener('keydown', function(event) {
+  if (event.keyCode == 37){
+    if (checkForGo == 1){
+        imgsrc3();
+      }else if(checkForGo == 2){
+        imgsrc1();
+      }else{
+        imgsrc2();
+      }
+
+  }
+});
+</script>
+
+</body>
+</html>
