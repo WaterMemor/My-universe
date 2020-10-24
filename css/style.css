@@ -27,7 +27,7 @@ border-radius: 50%;
 margin: 5px 5px;
 }
 .pic{
-  width:300px;
+  width:30%;
 }
 .pic img {
   width: 250px;
@@ -39,33 +39,38 @@ margin: 5px 5px;
   left: 50%;
   margin-top: 6%;
   margin-left: -28%;
-}
-.roundsSecond img{
-  width: 80%;
-  position: absolute;
-  left: 50%;
-  margin-left: -40%;
-  z-index: 2;
-}
-.dot{
-display: flex;
-justify-content: center;
-}
-.containerNew{
-display: flex;
-justify-content: center;
-margin: 0 2%;
-}
-.containerSix, .containerSeven{
-  margin: 0 5%;
-}
-.containerSeven{
-  padding-bottom: 30px;
-}
-.containerThird{
-display: block;
-margin: 0 10%;
-}
+  }
+  .roundsSecond img{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    z-index: -2;
+  }
+  .dot{
+  display: flex;
+  justify-content: center;
+  }
+  .containerNew{
+  display: flex;
+  justify-content: center;
+  margin: 0 2%;
+  }
+  .containerNew2{
+    display: flex;
+    justify-content: center;
+    margin: 0 2%;
+    }
+  .containerSix, .containerSeven{
+    margin: 0 5%;
+  }
+  .containerSeven{
+    padding-bottom: 30px;
+  }
+  .containerThird{
+  display: block;
+  margin: 0 10%;
+  }
 .containerFourth{
   display: block;
   margin: 140px 5%;
@@ -75,9 +80,9 @@ margin: 0 10%;
 .bgcolor1{
   background: #EEEEEE;
 }
-.bgcolor2{
+/*.bgcolor2{
   background: #e8e8e8;
-}
+}*/
 .containerButton{
 display: flex;
 justify-content: center;
@@ -105,7 +110,7 @@ padding-bottom: 60px;
   z-index: 2;
 }
 .textLeft{
-  width: 300px;
+  width: 30%;
 }
 .title{
   font-size: 32px;
@@ -133,11 +138,20 @@ padding-bottom: 60px;
   font-size: 16px;
 }
 .title_table{
-  font-size: 18px;
+  font-size: 22px;
   color: #303030;
   line-height: 80px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
+}
+.backgroundGrey{
+  background: #e8e8e8;
+  width: 100%;
+  height: 45%;
+  position: absolute;
+  left: 50%;
+  margin-left: -50%;
+  z-index: -4;
 }
 th {
   margin-right: 30px;
@@ -153,7 +167,7 @@ ul, li {
 }
 button{
   border: none;
-  border-radius: 30px;
+  border-radius: 30px!important;
   padding: 10px 20px;
   color: #fff;
   background: #C22929;
@@ -167,9 +181,12 @@ button:focus {
   outline: none;
 }
 input{
-  margin-right: 20px;
+  margin-right: 20px!important;
   max-width: 300px;
   width: 100%;
+}
+input::placeholder{
+  padding: 0 20px;
 }
 input, .borderBtn{
   border: 2px solid #C22929!important;
@@ -188,4 +205,95 @@ input, .borderBtn{
 }
 .textCenter ul{
   list-style: none;
+}
+.forMob{
+  display: none;
+}
+@media(max-width: 1200px){
+  .textLess{
+    font-size: 18px!important;
+    line-height: 35px;
+  }
+  .bigPhoto img{
+    max-height: 500px;
+  }
+  .title{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .title_group{
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  .usual_text{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .pic{
+    width:20%;
+  }
+  .pic img {
+    width: 200px;
+    margin: 15px 10%;
+  }
+  .rounds img {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 4%;
+    margin-left: -25%;
+  }
+  .textLeft{
+    width: 20%;
+  }
+  .item:nth-child(2) {
+    margin: 0 4%;
+  }
+  .containerSecond{
+    margin: 200px 0;
+  }
+  .containerFourth{
+    margin: 90px 5%;
+  }
+  .title_table{
+    font-size: 17px;
+    line-height: 60px;
+  }
+  .backgroundGrey{
+    height: 40%;
+  }
+}
+@media(max-width: 870px){
+  .forDeck{
+    display: none!important;
+  }
+  .forMob{
+    display: flex!important;
+  }
+  .rounds img {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    margin-top: 4%;
+    margin-left: -50%;
+}
+  .textLeft {
+    width: 80%;
+    margin: 0 2%!important;
+    text-align: center;
+    margin-top: 5%!important;
+}
+.textLeft ul {
+  list-style: none;
+}
+input{
+  margin-bottom: 20px;
+  margin-right: 0!important;
+  max-width: 600px;
+  width: 100%;
+}
+.button{
+  max-width: 600px;
+  width: 100%;
+}
 }
