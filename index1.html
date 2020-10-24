@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Вселенная недвижимости</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
     
 </head>
 <body>
-<div class="containerNew">
+<div class="containerNew forDeck">
     <div class="item textLeft">
         <div id="textLeft">
             <div class="title_group">Вселенная недвижимости</div>
@@ -18,10 +18,10 @@
             <div class="usual_text">
                 <ul>
                     <li>Быстро выкупаем жилье в Москве и области</li>
-                <li>До 90% процентов от рыночной стоимости</li>
-                <li>С долгами и обременением</li>
-                <li>Аванс в день обращения</li>
-                <li>Выкуп квартир в ипотеке и залоге</li>
+                    <li>До 90% процентов от рыночной стоимости</li>
+                    <li>С долгами и обременением</li>
+                    <li>Аванс в день обращения</li>
+                    <li>Выкуп квартир в ипотеке и залоге</li>
                 </ul>
         </div>
     </div>
@@ -44,19 +44,50 @@
     </div>
 </div>
 
+    <div class="containerNew forMob">
+        <div class="item textLeft">
+            <div id="textLeft">
+                <div class="title_group">Вселенная недвижимости</div>
+                <div class="title">Инвестиционная группа </div>
+                <div class="usual_text">
+                    <ul>
+                    <li>Быстро выкупаем жилье в Москве и области</li>
+                    <li>До 90% процентов от рыночной стоимости</li>
+                    <li>С долгами и обременением</li>
+                    <li>Аванс в день обращения</li>
+                    <li>Выкуп квартир в ипотеке и залоге</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="dot" style="margin-bottom: 20px;">
+            <span onClick="imgsrc1();" id="dot1" class="dots color"></span>
+            <span onClick="imgsrc2();" id="dot2" class="dots black"></span>
+            <span onClick="imgsrc3();" id="dot3" class="dots black"></span>
+        </div>
+        <button class="flat_price">Оценить квартиру</button>
+    </div>
 
+        <div class="rounds"><img src="img/round.png"></div>
+    </div>
 
 <!--Screen 2-->
-<div class="containerNew containerSecond">
-    <input type="text" placeholder="e-mail">
-    <input type="text" placeholder="ФИО">
-    <button>Отправить заявку</button>
+<div class="containerNew2 containerSecond forDeck">
+    <div><input type="text" placeholder="e-mail"></div>
+    <div><input type="text" placeholder="ФИО"></div>
+    <div><button>Отправить заявку</button></div>
+</div>
+<div class="containerNew2 containerSecond forMob">
+    <div>
+    <div><input style="margin-bottom: 20px;" type="text" placeholder="e-mail"></div>
+    <div><input style="margin-bottom: 20px;" type="text" placeholder="ФИО"></div>
+    <div><button class="button">Отправить заявку</button></div>
+</div>
 </div>
 
 <!--Screen 3-->
 <div class="container-fluid bgcolor1">
     <div class="containerThird">
-        <div class="textCenter title">
+        <div class="textCenter title textLess">
             <ul>
                 <li>Выкупим вашу недвижимость на собственные средства за 3 - 5 дней!</li> 
                 <li>Готовы решить даже самые сложные и нестандартные ситуации</li>
@@ -91,6 +122,8 @@
     <div class="containerFourth">
         <div class="roundsSecond">
             <img src="img/roundsSecond.png">
+        </div>
+        <div class="backgroundGrey">
         </div>
         <div class="title">
             Возьмем ваши проблемы на себя
@@ -194,6 +227,8 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+
 
 <script>
 
